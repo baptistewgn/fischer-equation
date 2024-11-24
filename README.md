@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository provides a detailed analysis of the Fisher Equation and its implications for estimating real interest rates. Using Python and Jupyter Notebook, the project explores the conditions under which the exact formula becomes essential compared to the common approximation:
+This repository provides a detailed analysis of the Fisher Equation and its implications for estimating real interest rates. Using Python and R, the project explores the conditions under which the exact formula becomes essential compared to the common approximation:
 
 $$
 r \approx i - \pi
