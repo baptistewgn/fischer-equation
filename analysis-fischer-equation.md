@@ -152,7 +152,7 @@ The results show that for a low inflation rate (e.g. $0.005 \leq \pi \leq 0.02$)
 
 For clearer visualization, we can graphically represent the curves of $r_{approx.}$, $r_{real}$, and $\Delta$ as a function of $\pi$. This graph shows that the approximation becomes less accurate for higher levels of inflation but becomes accurate again for even higher inflation rates.
 
-![fig1-2](fischer-equation/graphs/fig1-2.png)
+![fig1-2](graphs/fig1-2.png)
 
 These results can lead us to the following hypotheses:
 <center>
@@ -170,7 +170,7 @@ These results can lead us to the following hypotheses:
 
 The previous analysis assumes a fixed nominal rate of $i = 0.1$. It is interesting to examine the impact of increasing $i$ on the accuracy of the approximation. Let’s redo the same calculations for $i = 0.2$.
 
-![fig3-4](fischer-equation/graphs/fig3-4.png)
+![fig3-4](graphs/fig3-4.png)
 
 The results show that for a higher nominal rate (e.g. $i = 0.2$), the deviation $\Delta$ between $r_{approx.}$ and $r_{real}$ tends to increase with inflation, suggesting that the approximation becomes less reliable in a high-interest-rate context.
 
@@ -180,7 +180,7 @@ Returning to our relation $r = \frac{(1+i)}{(1+\pi)}-1$, we understand that $r$ 
 
 Let’s now see how our variable $r$ behaves based on the values of $i$ and $\pi$.
 
-![fig5](fischer-equation/graphs/fig5.png)
+![fig5](graphs/fig5.png)
 
 The graph highlights different scenarios based on the relationships between inflation and the nominal interest rate. In areas marked by a gradient of green and yellow, where inflation is high and the nominal rate is low, the tracking error between the exact Fisher formula and its approximation becomes significant. This indicates that, under these conditions, the approximation is not precise enough to correctly estimate the real interest rate.
 
