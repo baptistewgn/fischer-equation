@@ -20,7 +20,7 @@ While this approximation works in low-inflation environments, our analysis shows
 
 - **`fischer-equation.ipynb`**: The Jupyter Notebook containing the full analysis, visualizations, and code.
 - **`\codes`**: The folder containing the codes used for the analysis in R and Pyhton.
-- **`\grqphs`**: The folder containing the graphs created fot the analysis.
+- **`\graphs`**: The folder containing the graphs created fot the analysis.
 
 ## How to Use
 
