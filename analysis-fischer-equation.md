@@ -7,11 +7,11 @@
 2. [The Fisher Equation](#The-Fisher-Equation)  
 3. [The Approximation of the Fisher Equation](#The-Approximation-of-the-Fisher-Equation)  
    - [Justification of the Approximation](#Justification-of-the-Approximation)  
-   - [Validity of the Approximation: A Quantitative Examination](#Validity-of-the-Approximation:-A-Quantitative-Examination)  
+   - [Validity of the Approximation: A Quantitative Examination](#Validity)  
 4. [Influence of Nominal Rate](#Influence-of-Nominal-Rate)  
 5. [Conclusion](#Conclusion)  
 6. [Glossary](#Glossary)  
-7. [Appendix - Fisher Equation: Origin and Derivation](#Appendix---Fisher-Equation:-Origin-and-Derivation)  
+7. [Appendix - Fisher Equation: Origin and Derivation](#Appendix)  
 
 ---
 
@@ -29,16 +29,14 @@ The choice of the appropriate formula to estimate the real interest rate depends
 
 The choice between the approximation and the exact Fisher formula is not trivial. A poor estimation of the real interest rate can lead to suboptimal investment decisions, such as underestimating the risks associated with higher than expected inflation or misanticipating real returns. This document therefore explores (or at least provides a non-exhaustive overview of) the conditions under which the Fisher approximation is admissible and identifies situations where it can lead to significant errors.
 
-<a id="The-Fischer-Equation"></a>
+<a id="The-Fisher-Equation"></a>
 
 # The Fisher Equation
 
 The basic equation proposed by Fisher is expressed as follows:
 
 $$
-
 (1+i) = (1+r)(1+\pi)\\
-
 $$
 
 with $i$ the nominal interest rate, $r$ the real interest rate and $\pi$ the expected inflation rate (regardless of its calculation method).
@@ -46,15 +44,16 @@ with $i$ the nominal interest rate, $r$ the real interest rate and $\pi$ the exp
 This equation can be rearranged to express the real interest rate $r$ as follows:
 
 $$
-(1+i) = (1+r)(1+\pi)\\(1+r) = \frac{(1+i)}{(1+\pi)}\\
+(1+i) = (1+r)(1+\pi)
+$$
+$$
+(1+r) = \frac{(1+i)}{(1+\pi)}
 $$
 
 Expanding, we obtain:
 
 $$
-
 r = \frac{(1+i)}{(1+\pi)}-1
-
 $$
 
 This exact relationship shows that the real interest rate is influenced by the nominal interest and inflation rates.
@@ -68,17 +67,13 @@ The origin and derivation of the Fisher equation can be found in the *appendix*.
 In a low inflation context (i.e. $\pi \approx 0$), the Fisher equation can be simplified, giving rise to an often-used approximation:
 
 $$
-
-i \approx r + \pi\\
-
+i \approx r + \pi
 $$
 
 Or equivalently:
 
 $$
-
 r \approx i - \pi
-
 $$
 
 So, where does this approximation come from? And can it be considered reliable?
@@ -91,7 +86,11 @@ The approximation is based on the fact that when the inflation rate $\pi$ is clo
 
 $$
 (1+i) = (1+r)(1+\pi)\\
+$$
+$$
 (1+i) = 1 + \pi + r + r \times \pi\\
+$$
+$$
 i = \pi + r + \overbrace{r \times \pi}^{\approx 0}\\
 $$
 
@@ -103,7 +102,7 @@ $$
 
 We see here that, mathematically speaking, this approximation is admissible, but then, to what extent?
 
-<a id="Validity-of-the-Approximation:-A-Quantitative-Examination"></a>
+<a id="Validity"></a>
 
 # Validity of the Approximation: A Quantitative Examination
 
@@ -139,9 +138,14 @@ Formulas used:
 
 $$
 r_{real} = \frac{(1+i)}{(1+\pi)}-1\\
+$$
+$$
 r_{approx.} \approx i - \pi\\
+$$
+$$
 \Delta = |r_{approx.}-r_{real}|
 $$
+
 The results show that for a low inflation rate (e.g. $0.005 \leq \pi \leq 0.02$), the approximation is acceptable with a maximum deviation of 0.16 percentage points (pp). However, as inflation increases (e.g. $0.025 \leq \pi \leq 0.055$), the deviation $\Delta$ increases, reaching 0.24 pp. Finally, when the inflation rate becomes high (e.g. $\pi > 0.055$), the accuracy of the approximation increases (e.g. $\Delta$ decreases).
 
 ## Graphical Analysis
@@ -212,7 +216,7 @@ These errors can have significant consequences on investment decisions. An impre
 
 ---
 
-<a id="Appendix---Fisher-Equation:-Origin-and-Derivation"></a>
+<a id="Appendix"></a>
 
 # Appendix - Fisher Equation: Origin and Derivation
 
@@ -225,33 +229,25 @@ The basic equation can be derived as follows:
 1. Consider an amount of money $P$ invested today for a period of one year. At the end of this period, the future nominal value of this investment, accounting for the nominal interest rate $i$, is given by:
     
 $$
-
 FV = P \times (1 + i)
-
 $$
     
 2. To express this value in real terms (i.e., adjusting for inflation), we must account for the inflation rate $\pi$. If inflation is positive, the purchasing power of money decreases, and the future real value $FV_{adjusted}$ of the investment is given by:
     
 $$
-
 FV_{adjusted} = \frac{P \times (1 + i)}{1 + \pi}
-
 $$
     
 3. The future real value must also equal the initial value $P$ multiplied by the purchasing power increase factor, which is represented by the real rate $r$:
     
 $$
-
 FV_{real} = P \times (1 + r)
-
 $$
     
 4. By equating the two expressions $(2.)$ and $(3.)$ of the future real value, we get:
     
 $$
-    
-    P \times (1 + r) = \frac{P \times (1 + i)}{1 + \pi}
-    
+P \times (1 + r) = \frac{P \times (1 + i)}{1 + \pi}    
 $$
    
 Here, a negative one-to-one relationship between inflation and purchasing power is considered. In other words, when inflation increases by 1 point, purchasing power decreases by 1 point for a given $P$. By definition, $r$ is already "adjusted" for inflation, which allows for the equality of $(2.)$ and $(3.)$.
@@ -259,13 +255,13 @@ Here, a negative one-to-one relationship between inflation and purchasing power 
 5. By simplifying, canceling $P$ from both sides, and rearranging the terms, we get the complete Fisher equation:
     
 $$
-    (1 + r) = \frac{(1 + i)}{(1 + \pi)}
+(1 + r) = \frac{(1 + i)}{(1 + \pi)}
 $$
     
 Or, in an even more explicit form:
     
 $$
-    r = \frac{(1 + i)}{(1 + \pi)} - 1
+r = \frac{(1 + i)}{(1 + \pi)} - 1
 $$
     
 This equation shows that the real interest rate $r$ is determined by the nominal interest rate $i$ adjusted for inflation $π$. It highlights how inflation directly impacts the real return on investments.
