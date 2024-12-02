@@ -1,4 +1,4 @@
-# Understanding the Fisher Equation: When to Use the Exact Formula for Real Interest Rates?
+# Relationship Between the Interest Rate and Inflation: The Risk of Overestimating Real returns in Fisher's Relation
 
 ## Overview
 
